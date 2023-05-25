@@ -93,16 +93,16 @@
 
         <div class="input-area">
             <div class="text-input-area">
-                <input type="text" class="input" placeholder="Film Adı">
+                <input type="text" class="input" id="movieName" placeholder="Film Adı">
             </div>
             <div class="text-input-area">
-                <input type="text" class="input" placeholder="Film Yılı">
+                <input type="text" class="input" id="movieDate" placeholder="Film Yılı">
             </div>
             <div class="text-input-area">
                 <!-- <input type="text" class="input" placeholder="Film Kategorisi"> -->
                 <label for="movie" class="input">Kategori</label>
-                <select name="movie" id="movie" class="input">
-                    <option selected disabled>Seçiniz</option>
+                <select name="movie" id="movieCategory" class="input">
+                    <option disabled selected hidden>Seçiniz</option>
                     <option value="Aile">Aile</option>
                     <option value="Aksiyon">Aksiyon</option>
                     <option value="Animasyon">Animasyon</option>
@@ -130,7 +130,7 @@
                 </select>
             </div>
             <div class="text-input-area">
-                <input type="text" class="input" placeholder="Film Yönetmeni">
+                <input type="text" class="input" id="movieDirector" placeholder="Film Yönetmeni">
             </div>
             <div class="save-button">
                 <button class="save">Kaydet</button>
@@ -139,7 +139,7 @@
 
         <div class="list-area">
 
-            <div class="movie-card">
+            <!-- <div class="movie-card">
                 <div class="movie-info">
                     <div class="title">
                         Ad
@@ -180,7 +180,8 @@
                     <button class="change">Düzenle</button>
                 </div>
 
-            </div>
+            </div> -->
+
 
         </div>
 
