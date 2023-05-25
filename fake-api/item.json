@@ -1,0 +1,22 @@
+{
+    "Movie": [
+        {
+            "name": "Matrix",
+            "since": 2001,
+            "director": "Watchowski Brothers",
+            "categories": "Sci-Fi"
+        },
+        {
+            "name": "Matrix 1",
+            "since": 2002,
+            "director": "Watchowski Brothers",
+            "categories": "Sci-Fi"
+        },
+        {
+            "name": "Hababam Sınıfı",
+            "since": 1994,
+            "director": "Ertem Eğilmez",
+            "categories": "Comedy"
+        }
+    ]
+}
