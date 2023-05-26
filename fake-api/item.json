@@ -1,25 +1,11 @@
 {
   "Movie": [
     {
-      "name": "Matrix",
-      "since": 2001,
-      "director": "Watchowski Brothers",
-      "categories": "Sci-Fi",
-      "id": 1
-    },
-    {
-      "name": "Matrix 1",
-      "since": 2002,
-      "director": "Watchowski Brothers",
-      "categories": "Sci-Fi",
+      "name": "matrix 3",
+      "since": 2003,
+      "categories": "Bilim Kurgu",
+      "director": "wathcskjl",
       "id": 2
-    },
-    {
-      "name": "Yeşil Yol",
-      "since": 1994,
-      "director": "Mel Gibson",
-      "categories": "Dram",
-      "id": 3
     }
   ]
 }
