@@ -42,7 +42,7 @@ body {
     /* border-radius: 5px; */
     border: #000;
     border-bottom: 1px solid #d8d8d8;
-    border-radius: 5px;
+    /* border-radius: 5px; */
     background-color: transparent;
 }
 
@@ -55,8 +55,24 @@ body {
 }
 
 .save-button {
-    display: flex;
-    justify-content: end;
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: flex-end;
+}
+
+.change-save {
+    width: fit-content;
+    border: 1px solid rgba(255, 255, 255, .25);
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0);
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(10px);
+    font-size: 15px;
+    position: absolute;
+    bottom: 5px;
+    right: 96px;
+    cursor: pointer;
+    display: none;
 }
 
 .save {
@@ -86,7 +102,7 @@ body {
     border: 1px solid rgba(255, 255, 255, .25);
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 0);
-    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 0 10px 1px rgba(104, 104, 104, 0.25);
     backdrop-filter: blur(10px);
     padding: 5px;
     margin-bottom: 5%;
@@ -121,23 +137,30 @@ body {
 }
 
 .button-area {
-    display: flex;
-    justify-content: end;
+    /* display: flex;
+    justify-content: end; */
     position: absolute;
     bottom: 5px;
     right: 15px;
 }
 
-.change {
+.change,
+.delete {
     border: 1px solid rgba(255, 255, 255, .25);
     border-radius: 3px;
     background-color: rgba(255, 255, 255, 0);
-    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 0 10px 1px rgba(104, 104, 104, 0.25);
     backdrop-filter: blur(10px);
     font-size: 20px;
     cursor: pointer;
 }
 
+.change:hover,
+.delete:hover,
+.save:hover,
+.change-save:hover {
+    color: #a5a5a5;
+}
 
 @media only screen and (max-width: 1000px) {
     .list-area {
@@ -150,7 +173,7 @@ body {
         grid-template-columns: 100%;
     }
 
-    .input-area{
+    .input-area {
         margin-bottom: 5%;
     }
 }
