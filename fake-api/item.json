@@ -1,11 +1,46 @@
 {
   "Movie": [
     {
-      "name": "matrix 3",
-      "since": 2003,
+      "name": "Matrix 1",
+      "since": 1999,
       "categories": "Bilim Kurgu",
-      "director": "wathcskjl",
+      "director": "Wachowski Brothers",
+      "id": 1
+    },
+    {
+      "name": "Interstellar",
+      "since": 2014,
+      "categories": "Bilim Kurgu",
+      "director": "Christopher Nolan",
       "id": 2
+    },
+    {
+      "name": "Inception",
+      "since": 2010,
+      "categories": "Bilim Kurgu",
+      "director": "Christopher Nolan",
+      "id": 3
+    },
+    {
+      "name": "The Man from Earth",
+      "since": 2007,
+      "categories": "Bilim Kurgu",
+      "director": "Richard Schenkman",
+      "id": 4
+    },
+    {
+      "name": "Schindler's List",
+      "since": 1993,
+      "categories": "Dram",
+      "director": "Steven Spielberg",
+      "id": 5
+    },
+    {
+      "name": "The Good, The Bad, and the Ugly",
+      "since": 1966,
+      "categories": "Western&Kovboy",
+      "director": "Sergio Leone",
+      "id": 6
     }
   ]
 }
