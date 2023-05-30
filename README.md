@@ -2,9 +2,9 @@
 
 <sub> </sub>
 
-<sub> Kullanıcı izlemek istediği filmi kaydederek daha sonradan bakabileceği bir liste oluşturabilir. </sub>
+<sub> Kullanıcı, izlemek istediği filmi kaydederek daha sonradan bakabileceği bir liste oluşturabilir. </sub>
 
-> <sub> Kategori seçimi önceden kaydedilen kategoriler arasından yapılabilir. </sub>
+> <sub> Kategori seçimi önceden girilen kategoriler arasından yapılır. </sub>
 
 <sub> Oluşturulan film bilgi kartları silinebilir veya düzenlenebilir şekildedir. </sub>
 
