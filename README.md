@@ -8,7 +8,9 @@
 
 <sub> Oluşturulan film bilgi kartları silinebilir veya düzenlenebilir şekildedir. </sub>
 
- https://jsonplaceholder.typicode.com/ <sub> ile fake database oluşturarak kullanıcının girdiği veriler, JSON veri olarak tutulmaktadır </sub>
+ <sub> https://jsonplaceholder.typicode.com ile fake database oluşturarak kullanıcının girdiği veriler, JSON veri olarak tutulmaktadır </sub>
+ 
+ > <sub> Database'i başlatmak için: json-server --watch fake-api/item.json </sub>
 
 ### Proje Görselleri
 
