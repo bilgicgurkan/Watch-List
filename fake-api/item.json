@@ -1,7 +1,7 @@
 {
   "Movie": [
     {
-      "name": "Matrix 1",
+      "name": "Matrix",
       "since": 1999,
       "categories": "Bilim Kurgu",
       "director": "Wachowski Brothers",
@@ -34,13 +34,6 @@
       "categories": "Dram",
       "director": "Steven Spielberg",
       "id": 5
-    },
-    {
-      "name": "The Good, The Bad, and the Ugly",
-      "since": 1966,
-      "categories": "Western&Kovboy",
-      "director": "Sergio Leone",
-      "id": 6
     }
   ]
 }

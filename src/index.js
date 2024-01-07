@@ -22,9 +22,10 @@ function eventListeners() {
     updateMovieInfo.addEventListener("click", updateMovieInfos);
 }
 
-function showItem() {
+function showItem() { 
     request.get()
         .then(data => {
+            console.log(data);
             ui.showAllMovie(data);
         })
         .catch(err => console.log(err))
